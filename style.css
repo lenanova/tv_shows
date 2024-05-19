@@ -1,6 +1,16 @@
+body {
+    background-color: #FFD1E3;
+}
+
 .heading {
     display: flex;
     justify-content: center;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    color: #10439F;
+    font-size: 40px;
 }
 
 .input-field {
@@ -9,4 +19,30 @@
 
 #search {
     flex: 1;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+}
+
+a {
+    color: #10439F;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a:hover {
+    color: #453F78;
 }
